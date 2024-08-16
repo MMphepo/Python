@@ -9,17 +9,17 @@ root.geometry("1000x500")
 
 label1 = tk.Label(root, text="Name")
 label1.pack(pady=(10, 0))
-text_widget3 = tk.Text(root, height=5, width=40)
+text_widget3 = tk.Text(root, height=1, width=40)
 text_widget3.pack(pady=10)
 
 label1 = tk.Label(root, text="Age")
 label1.pack(pady=(10, 0))
-text_widget1 = tk.Text(root, height=5, width=40)
+text_widget1 = tk.Text(root, height=1, width=40)
 text_widget1.pack(pady=10)
 
 label1 = tk.Label(root, text="Occupation")
 label1.pack(pady=(10, 0))
-text_widget2 = tk.Text(root, height=5, width=40)
+text_widget2 = tk.Text(root, height=1, width=40)
 text_widget2.pack(pady=10)
 
 def change_row_color(): 
